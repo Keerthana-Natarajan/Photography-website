@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    /* backdrop-filter: blur(90px); */
+    background-color: rgb(205, 200, 200);
+     /* background-color: transparent !important; */
+ }
+
+ .about{
+    /* background-image: url(./img/c5.webp); */
+    /* position: fixed; */
+    background-size: cover;
+    background-position: center;
+    /* filter:brightness(0.9); */
+    background-attachment: fixed;
+ /* text-shadow: 1px 1px 0px black; */
+        background-color: rgb(250, 247, 242);
+ }
+
+
+   .p1{
+    font-size: 50px;
+    font-weight: lighter;
+   
+    /* text-shadow: 1px 5px 0px black; */
+    font-family:'Courier New', Courier, monospace;
+    padding-top: 70px;
+
+  }
+ 
+  .product{
+    /* height: 700px; */
+    /* width: 800px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+
+  .product1 {
+    /* border: 1px solid black; */
+    height: 600px;
+    width: 450px;
+  }
+
+  .product1 img{
+    filter: brightness(0.7);
+    height: 600px;
+    width: 450px;
+  }
+  .product1 img:hover{
+    transition: all 0.5s;
+    filter: brightness(1.1);
+    height: 600px;
+    width: 450px;
+  }
+
+  .product1 h1{
+    position: relative;
+    bottom: 300px;
+   
+    text-align: center;
+
+  }
+   
+
+  .contact{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+
+footer .line{
+    /* align-items: center; */
+    /* border: 1px solid black; */
+    height: 50px;
+   margin-left: 300px;
+}
+
+footer p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 5px;
+}
+
