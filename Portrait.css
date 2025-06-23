@@ -34,11 +34,13 @@
     
   
 
-      
+      html, body {
+  overflow-x: hidden;
+} 
 
 
       .contact{
-        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         letter-spacing: 3px;
     }
     
